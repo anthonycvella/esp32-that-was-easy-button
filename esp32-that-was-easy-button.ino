@@ -1,9 +1,4 @@
-/*************************************************************
- Name:      ESP32 That Was Easy Button
- Purpose:   Plays a random audio sample on a ESP32 chip
- Author:    Anthony Vella
- Created:   09-04-2023
-************************************************************** 
+/*
 MIT License
 
 Copyright (c) 2023 Anthony Vella
@@ -25,15 +20,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-************************************************************** 
-Samples were tuned, configured and exported as follows:
+-----------------------------------------------------------------------------
+Audio samples were tuned, configured and exported as follows:
 1.  In Audacity, Resample to `11025Hz`
 2.  In Audacity, Export Audio as Format `WAV`, Channel `Mono`,
     Sample Rate `11025Hz` and `Encoding 8-bit PCM`
 3.  In https://www.hexed.it, IMPORT WAV, select all HEX,
     `Export selected bytes as code snippet...` with option Style
     set to `C`
-************************************************************** 
 */ 
 
 #include "XT_DAC_Audio.h"
