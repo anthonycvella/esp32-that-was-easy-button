@@ -69,7 +69,7 @@ void setup() {
   Serial.begin(115200);
 
   // Configures the GPI of ledPin to be of type OUTPUT
-	pinMode(ledPin, OUTPUT);
+  pinMode(ledPin, OUTPUT);
 
   // Configures the GPI of buttonPin to be of type INPUT
   pinMode(buttonPin, INPUT);
